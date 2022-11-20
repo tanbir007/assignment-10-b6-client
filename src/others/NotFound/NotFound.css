@@ -1,0 +1,35 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.not-found h1 {
+  margin-bottom: 0px;
+  font-size: 150px;
+  font-weight: 800;
+  margin-top: 8%;
+  color: #D8D8D8;
+}
+.not-found h3 {
+  margin: 10px 5px;
+  color: rgba(90, 89, 89, 0.616);
+}
+.not-found p {
+  font-weight: 600;
+  color: rgba(90, 89, 89, 0.616);
+}
+.header-button {
+  margin-top: 30px;
+}
+.header-button{
+  border: 2px solid rgb(202, 113, 113);
+  color: rgb(202, 113, 113);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.not-found-description{
+    background-color: #D8D8D8;
+    min-height:400px;
+    margin-top: -30px;
+}

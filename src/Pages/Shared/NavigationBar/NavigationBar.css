@@ -1,0 +1,52 @@
+.nav-img{
+    height: 40px;
+}
+.nav-title{
+    font-size: 1.5rem;
+    font-family: 'Gill Sans';
+}
+.nav ul {
+  gap: 5px;
+  margin: 10px;
+}
+.nav ul li {
+  list-style: none;
+  font-size: 1.1rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  margin: 0 15px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #d88526;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+.active:hover {
+  background-color: #f78606;
+  color: white;
+}
+.inactive {
+  background-color: #0a7ac418;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.inactive:hover {
+  background-color: #0a7ac431;
+}
+.dark-mood{
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+/* media query  */
+@media  screen and (max-width: 990px) {
+    .active, .inactive{
+        margin-bottom: 5px;
+    }
+}
